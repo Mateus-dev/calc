@@ -1,0 +1,12 @@
+language: python
+
+python:
+  - "3.8"
+
+script:
+  - pytest testes.py
+
+notifications:
+  email:
+    - mateus.leal.99.ml@gmail.com
+    - ufrapl21@gmail.com
